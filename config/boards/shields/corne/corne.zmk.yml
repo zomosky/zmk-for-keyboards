@@ -2,12 +2,13 @@ file_format: "1"
 id: corne
 name: CORNE
 type: shield
-url: 
-requires: [pro_micro]
+url: https://github.com/Bastardkb/TBK-Mini
+requires: [Nice!Nano]
+exposes: [i2c_oled]
 features:
   - keys
-  - rgb
-  - oled
+  - display
+  - underglow
 siblings:
   - corne_left
   - corne_right

@@ -8,6 +8,7 @@
 #include "corne-layouts.dtsi"
 / {
 	chosen {
+		zephyr,display = &oled;
 		zmk,kscan = &kscan0;
 		zmk,physical-layout = &layout_0;
 	};

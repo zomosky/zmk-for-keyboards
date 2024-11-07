@@ -1,10 +1,10 @@
 /*
- * Copyright (c) 2020 Ryan Cross
+ * Copyright (c) 2020 Pete Johanson
  *
  * SPDX-License-Identifier: MIT
  */
 
-#include "sofle.dtsi"
+#include "lily58.dtsi"
 
 &kscan0 {
     col-gpios

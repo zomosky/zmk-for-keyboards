@@ -1,16 +1,14 @@
 file_format: "1"
-id: sofle
-name: Sofle
+id: lily58
+name: Lily58
 type: shield
-url: https://github.com/josefadamcik/SofleKeyboard
+url: https://github.com/kata0510/Lily58
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
   - display
-  - encoder
-  - underglow
   - studio
 siblings:
-  - sofle_left
-  - sofle_right
+  - lily58_left
+  - lily58_right

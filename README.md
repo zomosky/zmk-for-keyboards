@@ -1,4 +1,4 @@
-rbg√
+rgb√
 oled√
 zmk studio√
 

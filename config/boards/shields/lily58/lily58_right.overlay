@@ -23,3 +23,12 @@
 &right_encoder {
     status = "okay";
 };
+/ {
+    chosen {
+      zmk,battery = &vbatt;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+    };
+};

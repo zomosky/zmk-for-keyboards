@@ -12,11 +12,17 @@
 #     shield: reviung41
 #
 ---
+#使用nice view和oled的固件不同，请根据提示修改该配置页
+#使用nice view则将*shield：lily58_left*  *shield：lily58_right*进行注释
+#使用oled则将*shield：lily58_left nice_view_adapter nice_view*  *shield: lily58_right nice_view_adapter nice_view*进行注释
+
 include:
   - board: nice_nano_v2
-    shield: lily58_left nice_view_adapter nice_view
+    shield: lily58_left nice_view_adapter nice_view  
+#   shield: lily58_left  
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view
+#   shield: lily58_right
   - board: nice_nano_v2
     shield: settings_reset

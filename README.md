@@ -15,3 +15,10 @@ zmk studio√
 
 
 5.设置rgb初始灯效）2024.11.11
+
+
+(添加nice view的配置：
+lily58：√
+todo：corne sofle）
+
+（todo：nice view玩法教程）
